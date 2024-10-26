@@ -21,6 +21,9 @@
     "uuid": "^7.0.3",
     "wrtc": "^0.4.7"
   },
+  "engines": {
+  "node": "14.x"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
