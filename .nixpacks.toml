@@ -1,0 +1,8 @@
+[phases.setup]
+engine = "nodejs-14_x"
+
+[phases.build]
+run = "react-scripts build"  # Or `yarn install` if using Yarn
+
+[phases.start]
+run = "react-scripts start"    # Replace with your start command
