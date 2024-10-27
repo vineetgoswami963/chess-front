@@ -244,7 +244,7 @@ const ChessGameWrapper = (props) => {
 
 
     // get the gameId from the URL here and pass it to the chessGame component as a prop. 
-    const domainName = 'https://vineetgoswami963.github.io/chess-front'
+    const domainName = 'http://192.168.92.99:3000'
     // const domainName = 'https://vineetgoswami963.github.io/chess-back/'
     const color = React.useContext(ColorContext)
     const { gameid } = useParams()
